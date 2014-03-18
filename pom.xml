@@ -48,7 +48,7 @@
 
   <properties>
     <enforcer.version>1.3.1</enforcer.version>
-    <version.enforcer.rules>1.3.1.1</version.enforcer.rules>
+    <version.enforcer.rules>1.3.1.2</version.enforcer.rules>
     <mavenPluginPluginVersion>3.2</mavenPluginPluginVersion>
   </properties>
 
@@ -81,6 +81,11 @@
       <groupId>org.apache.maven.enforcer</groupId>
       <artifactId>enforcer-api</artifactId>
       <version>${enforcer.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>de.lgohlke.mojo</groupId>
+      <artifactId>enforcer-rules-report</artifactId>
+      <version>${version.enforcer.rules}</version>
     </dependency>
     <dependency>
       <groupId>de.lgohlke.mojo</groupId>
